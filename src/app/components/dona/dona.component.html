@@ -1,0 +1,16 @@
+<!--https://www.chartjs.org/docs/latest/charts/doughnut.html-->
+<!--https://valor-software.com/ng2-charts/#DoughnutChart-->
+<div class="card">
+  <div class="card-body">
+    <h3>{{title}}</h3>
+    <div style="display: block;">
+      <canvas baseChart
+              [data]="data"
+
+              [type]="type"
+              chartType="doughnut">
+      >
+      </canvas>
+    </div>
+  </div>
+</div>
