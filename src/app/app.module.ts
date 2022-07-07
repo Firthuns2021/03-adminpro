@@ -11,7 +11,8 @@ import {AuthModule} from "./auth/auth.module";
 import { NgChartsModule } from 'ng2-charts';
 
 import { AppComponent } from './app.component';
-import {NopagefoundComponent} from "./pages/nopagefound/nopagefound.component";
+import {NopagefoundComponent} from "./nopagefound/nopagefound.component";
+
 
 
 @NgModule({
